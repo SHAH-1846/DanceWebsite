@@ -1,0 +1,44 @@
+extends base.pug
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+block content 
+
+    section#introSection
+            div Welcome to HHH Dance Academy 
+            div Eat Dance Sleep Repeat 
+    section#ourMission
+            h1 Our Mission
+            div.card
+                    h3 This is a para
+                    div.card-box
+                        div.card-img
+                            img(src="/static/img/1.png", alt="Card Img")
+                        div.card-content
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum magnam ratione esse?
+            div.card 
+                h3 This is a para
+                div.card-box
+                        div.card-img
+                            img(src="/static/img/2.png", alt="Card Img")
+                        div.card-content
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum magnam ratione esse?
+            div.card 
+                h3 This is a para
+                div.card-box
+                        div.card-img
+                            img(src="/static/img/3.png", alt="Card Img")
+                        div.card-content
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum magnam ratione esse?
+    section#sponsorsSection 
+            h3 This is for sponsors section
+            div#sponsors
+                img(src="/static/img/logo1.png", alt="Sponsor Image", Class="spImage")
+                img(src="/static/img/logo2.png", alt="Sponsor Image", Class="spImage")
+                img(src="/static/img/logo3.png", alt="Sponsor Image", Class="spImage")
+                img(src="/static/img/logo4.png", alt="Sponsor Image", Class="spImage")
+    
+
